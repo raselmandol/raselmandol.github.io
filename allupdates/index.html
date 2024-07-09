@@ -4,6 +4,35 @@
 		<title>
 			Md. Rasel Mandol
 		</title>
+
+		<style>
+
+
+    .custom-cursor {
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        background-color: #4a90e2; /* Blue cursor */
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 9999;
+        display: none; /* Initially hide the cursor */
+        transition: transform 0.1s ease;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 8px #4a90e2, 0 0 10px #4a90e2;
+    }
+
+    .ball {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        pointer-events: none;
+        opacity: 1;
+        transition: transform 0.5s ease, opacity 1s ease;
+    }
+</style>
+
 	</head>
 
 	<body style="background-color:#000000">
@@ -40,5 +69,52 @@
 			</tr>
 		</table>
 		</center>
+		<div class="custom-cursor" id="custom-cursor"></div>
+
+<script>
+    document.addEventListener('mousemove', function(e) {
+        var cursor = document.getElementById('custom-cursor');
+        cursor.style.display = 'block';
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px'; 
+    });
+
+    document.addEventListener('click', function(e) {
+        var centerX = e.pageX;
+        var centerY = e.pageY;
+        var numBalls = 20; 
+
+        for (var i = 0; i < numBalls; i++) {
+            createBall(centerX, centerY);
+        }
+    });
+
+    function createBall(centerX, centerY) {
+        var colors = ['#ff6347', '#ffa500', '#ffd700', '#7fff00', '#40e0d0', '#9370db']; // List of colors
+        var ball = document.createElement('div');
+        var color = colors[Math.floor(Math.random() * colors.length)]; // Random color
+        var size = Math.floor(Math.random() * 20) + 10; // Random size between 10 and 30px
+        var spreadX = Math.random() * 400 - 200; // Random spread in X direction
+        var spreadY = Math.random() * 400 - 200; // Random spread in Y direction
+
+        ball.className = 'ball';
+        ball.style.backgroundColor = color;
+        ball.style.width = size + 'px';
+        ball.style.height = size + 'px';
+        ball.style.left = centerX + 'px';
+        ball.style.top = centerY + 'px';
+        document.body.appendChild(ball);
+
+        setTimeout(function() {
+            ball.style.transform = 'translate(' + spreadX + 'px, ' + spreadY + 'px)'; // Random movement
+            ball.style.opacity = '0'; // Fade out
+        }, 10);
+
+        setTimeout(function() {
+            ball.remove();
+        }, 4000); 
+    }
+</script>
+		
 	</body>
 </html>
