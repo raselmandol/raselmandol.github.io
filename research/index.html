@@ -1,120 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Md. Rasel Mandol</title>
+    <style>
+        body {
+            background-color: #000000;
+            margin: 0;
+            overflow: hidden;
+            color: green;
+            cursor: none; /* Hide default cursor */
+        }
 
-<html>
-	<head>
-		<title>
-			Md. Rasel Mandol
-		</title>
-		<style>
+        #particle-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
 
+        .custom-cursor {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #4a90e2;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            display: none;
+            transition: transform 0.1s ease;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 8px #4a90e2, 0 0 10px #4a90e2;
+        }
 
-    .custom-cursor {
-        position: fixed;
-        width: 20px;
-        height: 20px;
-        background-color: #4a90e2; /* Blue cursor */
-        border-radius: 50%;
-        pointer-events: none;
-        z-index: 9999;
-        display: none; /* Initially hide the cursor */
-        transition: transform 0.1s ease;
-        transform: translate(-50%, -50%);
-        box-shadow: 0 0 8px #4a90e2, 0 0 10px #4a90e2;
-    }
+        .content {
+            z-index: 2;
+            position: relative;
+        }
 
-    .ball {
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        pointer-events: none;
-        opacity: 1;
-        transition: transform 0.5s ease, opacity 1s ease;
-    }
-</style>
+        .content center img {
+            margin-top: 20px;
+        }
 
-	</head>
+        .content table {
+            margin-top: 20px;
+        }
 
-	<body style="background-color:#000000">
-		<center style="color:green">
-		<img src="../images/logo.png" height="200" width="350"/><br>
+        .content a {
+            color: green;
+            text-decoration: none;
+        }
+
+        .content p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <center>
+            <img src="images/logo.png" height="200" width="350" /><br>
 		<p style="color:red">Crazy noob, Kcat</p>
 		<table>
-
-			<tr>
-				<td>
+		<tr>
+		<td>
 		<a href="https://raselm.me/#" style="color:green">[*] Quantum Cryptography using Single Particle State Rotation [Ongoing*]</a>
-				</td>
-			</tr>
+		</td>
+		</tr>
 	
-					             <tr>
-				<td>
+		<tr>
+		<td>
 		<a href="https://raselm.me/#" style="color:green">[*] FPD ~ [Testing*]</a>
-				</td>
-			</tr>
-												<tr>
-				<td>
+		</td>
+		</tr>
+		<tr>
+		<td>
 		<a href="https://raselm.me/#" style="color:green">[*] Embedding Malwares in DNN [*Testing]</a>
-				</td>
-			</tr>
-															<tr>
-				<td>
+		</td>
+		</tr>
+		<tr>
+		<td>
 		<a href="https://raselm.me/#" style="color:green">[*] Automated Lumbosacral spine MRI(Detection etc)[*completed]</a>
-				</td>
-			</tr>
+		</td>
+		</tr>
 			
 																		<tr>
-				<td>
+		<td>
 		<a href="https://raselm.me/#" style="color:green">[*] OpenDB surface for research[*Ongoing]</a>
-				</td>
-			</tr>
-
+		</td>
+		</tr>
 		</table>
-		</center>
-				<div class="custom-cursor" id="custom-cursor"></div>
+        </center>
+    </div>
+    <div id="custom-cursor" class="custom-cursor"></div>
+    <canvas id="particle-canvas"></canvas>
 
-<script>
-    document.addEventListener('mousemove', function(e) {
-        var cursor = document.getElementById('custom-cursor');
-        cursor.style.display = 'block';
-        cursor.style.left = e.pageX + 'px';
-        cursor.style.top = e.pageY + 'px'; 
-    });
-
-    document.addEventListener('click', function(e) {
-        var centerX = e.pageX;
-        var centerY = e.pageY;
-        var numBalls = 20; 
-
-        for (var i = 0; i < numBalls; i++) {
-            createBall(centerX, centerY);
+    <script>
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.size = Math.random() * 5 + 1;
+                this.speedX = Math.random() * 3 - 1.5;
+                this.speedY = Math.random() * 3 - 1.5;
+                this.hue = Math.random() * 60 + 180;
+                this.life = 0; //life property to track how long the particle has been alive
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                this.life += 1;
+                if (this.size > 0.03) this.size -= 0.03; //rate at which particles shrink
+            }
+            draw(ctx) {
+                ctx.fillStyle = `hsl(${this.hue}, 100%, 50%)`;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.closePath();
+                ctx.fill();
+            }
         }
-    });
 
-    function createBall(centerX, centerY) {
-        var colors = ['#ff6347', '#ffa500', '#ffd700', '#7fff00', '#40e0d0', '#9370db']; // List of colors
-        var ball = document.createElement('div');
-        var color = colors[Math.floor(Math.random() * colors.length)]; // Random color
-        var size = Math.floor(Math.random() * 20) + 10; // Random size between 10 and 30px
-        var spreadX = Math.random() * 400 - 200; // Random spread in X direction
-        var spreadY = Math.random() * 400 - 200; // Random spread in Y direction
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        let particlesArray = [];
 
-        ball.className = 'ball';
-        ball.style.backgroundColor = color;
-        ball.style.width = size + 'px';
-        ball.style.height = size + 'px';
-        ball.style.left = centerX + 'px';
-        ball.style.top = centerY + 'px';
-        document.body.appendChild(ball);
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
 
-        setTimeout(function() {
-            ball.style.transform = 'translate(' + spreadX + 'px, ' + spreadY + 'px)'; // Random movement
-            ball.style.opacity = '0'; // Fade out
-        }, 10);
+        const customCursor = document.getElementById('custom-cursor');
+        document.addEventListener('mousemove', (e) => {
+            customCursor.style.left = `${e.clientX}px`;
+            customCursor.style.top = `${e.clientY}px`;
+            customCursor.style.display = 'block';
+            for (let i = 0; i < 5; i++) { //number of particles
+                createParticles(e.clientX, e.clientY);
+            }
+        });
 
-        setTimeout(function() {
-            ball.remove();
-        }, 4000); 
-    }
-</script>
-	</body>
+        document.addEventListener('click', (e) => {
+            for (let i = 0; i < 50; i++) { //number of particles on click
+                createParticles(e.clientX, e.clientY);
+            }
+        });
+
+        function createParticles(x, y) {
+            particlesArray.push(new Particle(x, y));
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particlesArray.forEach((particle, index) => {
+                particle.update();
+                particle.draw(ctx);
+                if (particle.size <= 0.03 && particle.life > 360) { //particle life condition
+                    particlesArray.splice(index, 1);
+                }
+            });
+            requestAnimationFrame(animateParticles);
+        }
+
+        animateParticles();
+
+        document.addEventListener('mouseenter', () => {
+            customCursor.style.display = 'block';
+        });
+
+        document.addEventListener('mouseleave', () => {
+            customCursor.style.display = 'none';
+        });
+    </script>
+</body>
 </html>
