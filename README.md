@@ -1,6 +1,4 @@
 
-<h2 align="center">Hi 👋, I'm Md. Rasel Mandol</h2>
-
 ![:name](https://count.getloli.com/get/@:raselmandol?theme=rule34)
 
 ###
