@@ -1,5 +1,6 @@
-
-![:name](https://count.getloli.com/get/@:raselmandol?theme=rule34)
+<div style="text-align: center;">
+    <img src="https://count.getloli.com/get/@:raselmandol?theme=rule34" alt="profile-views-raselmandol">
+</div>
 
 ###
 
