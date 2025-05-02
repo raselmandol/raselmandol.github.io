@@ -49,6 +49,6 @@ The trained model is integrated into a custom-built **GUI application** that wor
 </div>
 
 
-> **Ongoing Work**: The project is currently in its **research and development phase**, with ongoing efforts to improve spee and accuracy for clinical deployment.
+> **Ongoing Work**: The project is currently in its **research and development phase**, with ongoing efforts to improve speed and accuracy for clinical deployment.
 
 **Note:** More information about this project will be added soon.

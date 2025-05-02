@@ -8,9 +8,9 @@ category: Research
 related_publications: false
 ---
 
- This research explores improving Quantum Cryptography through Single Particle State Rotation (SPSR). By storing and backtracking the quantum states of individual particles, we found a way to store the states in such a way, we can use them as classical bits in the final step. 
+ This research explores improving Quantum Cryptography through Single-Particle State Rotation (SPSR). By storing and backtracking the quantum states of individual particles, we found a way to store the states in such a way, we can use them as classical bits in the final step. 
 
-Sarting with Quantum State Preparation:
+Starting with Quantum State Preparation:
 
 <div class="caption">
 Initial State Setup: A series of particles are prepared in specific quantum states |ψ⟩. These states can represent superpositions of binary values (0 and 1).
