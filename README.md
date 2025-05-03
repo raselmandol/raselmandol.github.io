@@ -11,7 +11,7 @@
 * Website: <https://raselm.me>
 * Email: <raselm@duck.com>
 * Discord: `crazynoob#9847`
-* Matrix/Element: ~~`@raselm:matrix.org`~~
-* Keybase: ~~<https://keybase.io/raselm>~~
-* Stack Overflow(new acc): ~~<https://stackoverflow.com/users/22455902/raselmandol>~~
-* Reddit(new acc): ~~<https://www.reddit.com/user/raselmandol>~~
+* Matrix/Element: `@raselmandol:matrix.org`
+* Keybase: <https://keybase.io/raselmandol>
+* Stack Overflow(new acc): <https://stackoverflow.com/users/30438446/rasel>
+* Reddit(new acc): <https://www.reddit.com/user/rmandol>
