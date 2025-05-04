@@ -15,3 +15,4 @@
 * Keybase: <https://keybase.io/raselmandol>
 * Stack Overflow(new acc): <https://stackoverflow.com/users/30438446/rasel>
 * Reddit(new acc): <https://www.reddit.com/user/rmandol>
+* LinkedIn: `raselmandol`
