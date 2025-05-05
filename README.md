@@ -10,7 +10,6 @@
 
 * Website: <https://raselm.me>
 * Email: <raselm@duck.com>
-* Discord: `crazynoob#9847`
 * Matrix/Element: `@raselmandol:matrix.org`
 * Keybase: <https://keybase.io/raselmandol>
 * Stack Overflow(new acc): <https://stackoverflow.com/users/30438446/rasel>
