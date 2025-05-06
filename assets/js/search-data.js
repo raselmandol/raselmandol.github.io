@@ -81,6 +81,11 @@ ninja.data = [{
           description: "Desktop application for Comprehensive Rust-bn built using electron js.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/comprehensive_rust_desktop/";
+            },},{id: "projects-floating-mascot",
+          title: 'Floating Mascot',
+          description: "A floating mascot app made with PyQt6. You can load animated GIFs or images.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/floating_mascot/";
             },},{id: "projects-gptdesk",
           title: 'gptDesk',
           description: "This desktop application leverages the power of ChatGPT",
