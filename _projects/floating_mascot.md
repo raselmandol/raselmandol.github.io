@@ -9,8 +9,11 @@ category: fun
 
 # floating-mascot
 
-![GUI Preview](https://raw.githubusercontent.com/raselmandol/floating_mascot/refs/heads/main/assets/floating_mascot.gif)
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/floating_mascot.gif" title="floating_mascot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 `floating_mascot` is a simple floating character mascot application for your desktop, made with PyQt6. It supports animated GIFs/images, 3D models(.glb), and some extendable built-in animations like bouncing balls and snakes. You can also add your own custom character or animation.
 
@@ -33,9 +36,14 @@ category: fun
 
 ## Screenshots
 
-![GUI Preview](https://raw.githubusercontent.com/raselmandol/floating_mascot/refs/heads/main/assets/screenshot_1.png)
-
-![GUI Preview](https://raw.githubusercontent.com/raselmandol/floating_mascot/refs/heads/main/assets/screenshot_2.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/screenshot_f_mascot_1.png" title="floating_mascot_screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/screenshot_f_mascot_2.png" title="floating_mascot_screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ---
 
