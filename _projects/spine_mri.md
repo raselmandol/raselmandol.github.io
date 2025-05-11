@@ -27,3 +27,5 @@ Aimed to develop a deep learning model that can automatically find and highlight
 
 
 Check nnU-Net <a href="https://github.com/MIC-DKFZ/nnUNet">here</a>.
+
+**Note:** More information about this project will be added soon.
