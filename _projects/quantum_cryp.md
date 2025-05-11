@@ -62,3 +62,6 @@ Rotation Protocol Breakdown
 <div class="caption">
 Particle rotation, rotation-db, encryption.
 </div>
+
+
+**Note:** More information about this project will be added soon.
