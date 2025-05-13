@@ -9,7 +9,7 @@ profile:
   image: Rasel.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Rasel, in Shillong (NEHU campus), Meghalaya, India, 2024</p>
+    <p>Rasel at NEHU Campus, Shillong Meghalaya, India, 2024</p>
     <p>Looks too old, maybe it is.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
