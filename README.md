@@ -1,6 +1,10 @@
 <p align="center">
     <img src="https://count.getloli.com/get/@:raselmandol?theme=rule34" alt="profile-views-raselmandol">
 </p>
+<div align="center">
+    <img src="https://komarev.com/ghpvc/?username=raselmandol" alt="profile-views-raselmandol">
+ </div>
+<div align="center">received since January 2025. </div>
 
 ###
 
