@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-mind-is-the-39-real-39-39-infinity-39",
+        },{id: "post-a-lora-enabled-imu-study",
+        
+          title: "A LoRa‑Enabled IMU Study",
+        
+        description: "Analyzing hand movement patterns during well and sick periods.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/lora-imu/";
+          
+        },
+      },{id: "post-mind-is-the-39-real-39-39-infinity-39",
         
           title: "Mind is the &#39;real&#39; &#39;infinity&#39;",
         
