@@ -24,13 +24,13 @@ profiles:
     more_info: >
       <p> Ph.D, NIT Meghalaya </p>
       <p> surmila.thokchom@nitm.ac.in </p>
-  - align: right
-    image: dr_bunil.jpeg
-    content: about_bkb.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p> Ph.D. (NIT Rourkela) </p>
-      <p> bunil@nitm.ac.in </p>
+  # - align: right
+  #   image: dr_bunil.jpeg
+  #   content: about_bkb.md
+  #   image_circular: false # crops the image to make it circular
+  #   more_info: >
+  #     <p> Ph.D. (NIT Rourkela) </p>
+  #     <p> bunil@nitm.ac.in </p>
   - align: left
     image: pushpak_das.jpg
     content: about_pushpak.md
