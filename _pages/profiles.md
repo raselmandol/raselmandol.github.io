@@ -31,14 +31,14 @@ profiles:
   #   more_info: >
   #     <p> Ph.D. (NIT Rourkela) </p>
   #     <p> bunil@nitm.ac.in </p>
-  - align: left
+  - align: right
     image: pushpak_das.jpg
     content: about_pushpak.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p> ME in Software Engineering (BIT, Mesra)</p>
       <p> pushpakdas@nitm.ac.in </p>
-  - align: right
+  - align: left
     image: abisek_dahal.jpg
     content: about_abisek.md
     image_circular: false # crops the image to make it circular
