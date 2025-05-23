@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: An undergraduate student and an explorer, trying to find myself. I love to explore and learn unknown things. I mostly spend my time doing research related to Machine Learning/Deep Learning, Machine Learning on Resource-Constrained Devices, Cyber Security, Ethical Hacking, and Software Development in all these areas.
+subtitle: An undergraduate student and an explorer. I love to explore and learn unknown things. I mostly spend my time doing research related to Machine Learning/Deep Learning, Machine Learning on Resource-Constrained Devices, Cyber Security, Ethical Hacking, and Software Development in all these areas.
 
 profile:
   align: right
