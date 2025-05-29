@@ -49,6 +49,7 @@ rss_icon: true # set to true to show the RSS icon
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
-logo: https://raselm.me/assets/img/linktree-logo-icon.png
-title: Linktree
-url: https://linktr.ee/raselmandol
+custom_social:
+    logo: https://raselm.me/assets/img/linktree-logo-icon.png
+    title: Linktree
+    url: https://linktr.ee/raselmandol
