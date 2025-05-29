@@ -50,6 +50,6 @@ rss_icon: true # set to true to show the RSS icon
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
 custom_social:
-    logo: https://raselm.me/assets/img/linktree-logo-icon.png
-    title: Linktree
-    url: https://linktr.ee/raselmandol
+  logo: https://raselm.me/assets/img/linktree-logo-icon.png
+  title: Linktree
+  url: https://linktr.ee/raselmandol
