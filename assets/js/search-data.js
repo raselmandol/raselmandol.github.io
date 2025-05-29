@@ -173,25 +173,11 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
-        id: 'social-logo',
-        title: 'Logo',
+        id: 'social-custom_social',
+        title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-title',
-        title: 'Title',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-url',
-        title: 'Url',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
+          window.open("https://linktr.ee/raselmandol", "_blank");
         },
       },{
       id: 'light-theme',
