@@ -43,6 +43,6 @@ profiles:
     content: about_abisek.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p> M.Tech Computer Science &Engineering, NIT Sikkim </p>
+      <p> M.Tech Computer Science & Engineering, NIT Sikkim </p>
       <p> abiseknitskm@gmail.com </p>
 ---
