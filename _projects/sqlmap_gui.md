@@ -86,6 +86,27 @@ python sqlmap_gui
 ```
 ---
 
+##  Build Executable (Windows)
+
+if you want to build an `.exe`:
+
+### Install PyInstaller:
+   ```bash
+   pip install pyinstaller
+   ```
+
+> **Note:** Already added in `requirements.txt`. (If you want to ignore it, make sure to remove it from `requirements.txt`.)
+
+
+Convert your PNG icon to ICO.
+
+### Run:
+   ```bash
+   pyinstaller --name sqlmap-gui --onefile --windowed --icon=icon.ico sqlmap_gui/main.py
+   ```
+
+---
+
 ## How to Use
 
  1. Launch the GUI (`python sqlmap_gui`).
@@ -96,23 +117,6 @@ python sqlmap_gui
 
 ---
 
-## Folder Structure
-
-```plaintext
-sqlmap-gui/
-├── build/                     # Auto-generated build files (ignored)
-├── sqlmap/                    # sqlmap tool integration
-├── sqlmap_env/                # Virtual environment (ignored)
-├── sqlmap_gui/                # Main GUI source code
-│   ├── sections/              # Modular GUI sections
-│   ├── __init__.py            # Initialization script
-│   ├── main.py                # Main application entry point
-├── sqlmap_gui.egg-info/       # Metadata files (ignored)
-├── setup.py                   # Setup script
-├── README.md                  # Project documentation
-```
-
----
 
 ## Example
 
@@ -185,8 +189,9 @@ This project is licensed under the MIT License, [sqlmap license](https://raw.git
 
 ## To-Do
 
-~~Add more screenshots of the GUI in action.~~
+
 - [ ]  Enhance error handling.
+- [ ]  Option to load Sqlmap source/folder selection
 - [ ]  Improve documentation with more examples.
 - [ ]  More tabs/ more options
 - [ ]  Background Process
