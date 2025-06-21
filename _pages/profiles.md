@@ -36,6 +36,6 @@ profiles:
     content: about_abisek.md
     image_circular: false 
     more_info: >
-      <p> M.Tech Computer Science & Engineering, NIT Sikkim </p>
+      <p> M.Tech in Computer Science & Engineering, NIT Sikkim </p>
       <p> abiseknitskm@gmail.com </p>
 ---
