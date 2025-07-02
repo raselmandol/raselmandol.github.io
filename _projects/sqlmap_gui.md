@@ -107,6 +107,29 @@ Convert your PNG icon to ICO.
 
 ---
 
+## Builder Script (`builder.bat`)
+###  Usage
+Run the script with one of the following flags:
+
+```bash
+builder.bat --build
+```
+Builds the project using `pip install -e .`
+
+```bash
+builder.bat --run
+```
+Runs the main application using `python sqlmap_gui`.
+
+```bash
+builder.bat --exe
+```
+Builds a standalone executable using **PyInstaller**. Configuration parameters are loaded from `config.txt`.
+
+> **Note:** To use `--activate`, run `./builder.ps1 --activate` instead of `./builder.bat --activate`. The PowerShell script (`builder.ps1`) is more reliable and effective in PowerShell environments, which are commonly used as the default terminal in most IDEs (such as Visual Studio Code).
+
+---
+
 ## How to Use
 
  1. Launch the GUI (`python sqlmap_gui`).
