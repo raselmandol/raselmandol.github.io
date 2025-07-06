@@ -42,3 +42,5 @@ Overview of the performance of a customized nnU-Net version (used in the initial
 Check nnU-Net <a href="https://github.com/MIC-DKFZ/nnUNet">here</a>.
 
 **Note:** More information about this project will be added soon.
+
+> If you're looking for **MRI-SEG Lite**, a lightweight version of MRI-SEG specifically developed for resource-constrained devices, please refer to [this page](https://raselm.me/projects/spine_mri_rc/).
