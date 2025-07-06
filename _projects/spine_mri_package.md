@@ -19,7 +19,7 @@ I developed **MRI-SEG**, a cross-platform software package for **automatic class
 - Designed for **ease of integration** into clinical workflows and research settings.
 
 <div class="caption">
-            Overview (Performance) of a customized nnU-Net (used to train :: first step) version
+Overview of the performance of a customized nnU-Net version (used in the initial training step).
 </div>
 
 <div class="row">
