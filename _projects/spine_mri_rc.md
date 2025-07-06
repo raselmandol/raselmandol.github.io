@@ -30,6 +30,6 @@ MRI SEG Lite supports the same core functionalities as the desktop version, incl
 </div>
 
 
-> **Ongoing Work**: The project is currently in its **research and development phase**, with ongoing efforts to improve speed, accuracy, and power efficiency for clinical deployment.
+> **Ongoing Work**: The project is currently in its **research and development phase**, with ongoing efforts to improve speed, accuracy, and power efficiency for clinical deployment. The source code is currently private due to permission constraints and will be released as open-source once approved.
 
 **Note:** More information about this project will be added soon.
