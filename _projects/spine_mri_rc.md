@@ -29,6 +29,26 @@ MRI SEG Lite supports the same core functionalities as the desktop version, incl
     </div>
 </div>
 
+<div class="caption">
+            Overview (test)
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/test_1_mril.png" title="Test1 - MRI-SEG Lite" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/test_2_mril.png" title="Test1 - MRI-SEG Lite" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/test_3_mril.png" title="Test1 - MRI-SEG Lite" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 > **Ongoing Work**: The project is currently in its **research and development phase**, with ongoing efforts to improve speed, accuracy, and power efficiency for clinical deployment. The source code is currently private due to permission constraints and will be released as open-source once approved.
 
