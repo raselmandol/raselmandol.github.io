@@ -25,6 +25,7 @@ Aimed to develop a deep learning model that can automatically find and highlight
     </div>
 </div>
 
+> **Note:** The source code is currently private due to permission constraints and will be released as open-source once approved.
 
 Check nnU-Net <a href="https://github.com/MIC-DKFZ/nnUNet">here</a>.
 
