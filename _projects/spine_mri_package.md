@@ -26,6 +26,9 @@ I developed **MRI-SEG**, a cross-platform software package for **automatic class
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/spine_seg.png" title="GUI Image" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/spine_annotated.png" title="spine_annotated" class="img-fluid rounded z-depth-1" %}
     </div>
