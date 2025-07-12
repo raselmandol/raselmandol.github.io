@@ -8,11 +8,11 @@
 
 ###
 
-* This repo contains files for https://raselm.me
+* This repo contains files for https://raselmandol.github.io
 
 #### Find me👀
 
-* Website: <https://raselm.me>
+* Website: <https://raselmandol.github.io>
 * Email: <raselm@duck.com>
 * Matrix/Element: `@raselmandol:matrix.org`
 * Keybase: <https://keybase.io/raselmandol>
