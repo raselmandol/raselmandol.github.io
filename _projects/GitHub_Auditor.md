@@ -7,7 +7,7 @@ importance: 3
 category: fun
 ---
 
-# floating-mascot
+# GitHub Auditor
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
