@@ -80,7 +80,12 @@ ninja.data = [{
           section: "News",},{id: "news-our-poster-titled-efficient-medical-image-segmentation-on-edge-devices-has-been-accepted-for-presentation-at-the-conference-on-mathematics-of-machine-learning-2025-to-be-held-at-tu-hamburg-germany-september-22-25-2025",
           title: 'Our poster titled “Efficient Medical Image Segmentation on Edge Devices” has been accepted...',
           description: "",
-          section: "News",},{id: "projects-chatgpt-conversation-heatmap",
+          section: "News",},{id: "projects-github-auditor",
+          title: 'GitHub Auditor',
+          description: "A comprehensive GitHub repository analytics dashboard that automatically monitors and visualizes your GitHub repositories.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GitHub_Auditor/";
+            },},{id: "projects-chatgpt-conversation-heatmap",
           title: 'ChatGPT Conversation Heatmap',
           description: "This project visualizes ChatGPT conversation activity in a GitHub-style heatmap.",
           section: "Projects",handler: () => {
