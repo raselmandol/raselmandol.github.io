@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "This is an overview of my activities and skills. Though it doesn&#39;t cover the full range of what I know or what I do, it mostly includes what I work with. Please find my CV/details on this page.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-people",
           title: "people",
           description: "I have had the opportunity to work with and under incredibly talented and intellectual individuals and supervisors, and I am currently collaborating with some equally talented people.",
