@@ -17,6 +17,15 @@ profiles:
       <p> Ph.D, BIT Mesra </p>
       <p> diptendu.sr@nitm.ac.in </p>
       <p> diptendu.sr@gmail.com </p>
+      
+  - align: right
+    image: shikhar.jpeg
+    content: about_shikhar.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p> Doctoral degree, Tohoku University, Japan, 2021 </p>
+      <p> shikhar@kochi-tech.ac.jp </p>
+
   - align: right
     image: dr_surmila.jpg
     content: about_sur.md
