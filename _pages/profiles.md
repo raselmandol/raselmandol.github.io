@@ -17,7 +17,7 @@ profiles:
       <p> Ph.D, BIT Mesra </p>
       <p> diptendu.sr@nitm.ac.in </p>
       <p> diptendu.sr@gmail.com </p>
-  - align: left
+  - align: right
     image: dr_surmila.jpg
     content: about_sur.md
     image_circular: false 
@@ -31,7 +31,7 @@ profiles:
     more_info: >
       <p> ME in Software Engineering (BIT, Mesra)</p>
       <p> pushpakdas@nitm.ac.in </p>
-  - align: left
+  - align: right
     image: abisek_dahal.jpg
     content: about_abisek.md
     image_circular: false 
