@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-gallery",
+          title: "gallery",
+          description: "A photo gallery showcasing selected moments and project visuals.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/gallery/";
+          },
         },{id: "nav-people",
           title: "people",
           description: "I have had the opportunity to work with and under incredibly talented and intellectual individuals and supervisors, and I am currently collaborating with some equally talented people.",
@@ -59,7 +66,12 @@ ninja.data = [{
             window.location.href = "/blog/2025/brain/";
           
         },
-      },{id: "news-the-manuscript-titled-enhanced-qc-using-single-particle-state-rotation-was-accepted-at-dacs-2024",
+      },{id: "gallery-sunset-over-shillong",
+          title: 'Sunset over Shillong',
+          description: "A quiet evening sky captured during a campus walk.",
+          section: "Gallery",handler: () => {
+              window.location.href = "/gallery/sample_photo/";
+            },},{id: "news-the-manuscript-titled-enhanced-qc-using-single-particle-state-rotation-was-accepted-at-dacs-2024",
           title: 'The manuscript (titled: Enhanced QC Using Single-Particle State Rotation) was accepted at DACS...',
           description: "",
           section: "News",},{id: "news-deleted-several-social-site-accounts",
