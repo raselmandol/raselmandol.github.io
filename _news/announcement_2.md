@@ -10,9 +10,6 @@ Earlier this year, around the middle of February, I signed a message through my 
 
 ---
 
-# Deleted Several Social Site Accounts
-
-
 Hello World!
 
 Due to several reasons, I forced myself to delete several social site accounts of mine, which include:
