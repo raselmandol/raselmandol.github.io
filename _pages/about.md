@@ -30,4 +30,4 @@ I am actively involved in deep learning projects, focusing on integrating machin
 
 I am also currently involved in cyber security research under the supervision of [Dr. Surmila Thokchom](https://nitm.ac.in/department/computer-science-engineering/faculty-1/dr-surmila-thokchom), Assistant Professor, [NIT Meghalaya](https://nitm.ac.in/), on topics including IoT-based authentication systems, malware detection and classification using machine learning, IoT-based ethical hacking tools development (combining LoRa security), and secure system development for distributed cloud computing.
 
-If you're looking for the old version of this website [raselm.me](https://raselm.me), it's still available. You can check it out [here](https://raselm.me/old).
+If you're looking for the old version of this website [raselm.me](https://raselm.me), it's still available. You can check it out [here](https://raselmandol.github.io/old).

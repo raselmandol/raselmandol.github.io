@@ -55,7 +55,7 @@ If anything changes, or if I have any new updates regarding all of this,
 **I will sign those posts/messages with my PGP key and announce them** either on:
 
 - [My GitHub](https://github.com/raselmandol)
-- or [My personal website](https://raselm.me)
+- or [My personal website](https://raselmandol.github.io)
 
 ---
 
