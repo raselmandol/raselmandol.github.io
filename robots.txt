@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://raselmandol.github.io/sitemap.xml
+Sitemap: https://raselr.com/sitemap.xml
