@@ -90,6 +90,11 @@ ninja.data = [{
           description: "A comprehensive GitHub repository analytics dashboard that automatically monitors and visualizes your GitHub repositories.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/GitHub_Auditor/";
+            },},{id: "projects-brainseg-ai-brain-mri-segmentation-and-annotation",
+          title: 'Brainseg-ai – Brain MRI Segmentation and Annotation',
+          description: "Brainseg-ai – A lightweight software tool for automatic brain MRI segmentation and annotation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/brainseg_ai/";
             },},{id: "projects-chatgpt-conversation-heatmap",
           title: 'ChatGPT Conversation Heatmap',
           description: "This project visualizes ChatGPT conversation activity in a GitHub-style heatmap.",
