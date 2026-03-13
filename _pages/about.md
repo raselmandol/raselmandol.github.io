@@ -30,4 +30,6 @@ I am actively involved in deep learning projects, focusing on integrating machin
 
 I am also currently involved in cyber security research under the supervision of [Dr. Surmila Thokchom](https://nitm.ac.in/faculty_profile.php?dept=computer-science-and-engineering&fac=21/Dr.%20Surmila%20Thokchom), Assistant Professor, [NIT Meghalaya](https://nitm.ac.in/), on topics including IoT-based authentication systems, malware detection and classification using machine learning, IoT-based ethical hacking tools development (combining LoRa security), and secure system development for distributed cloud computing.
 
+I am also one of the founders of <a href="https://circuitlab.ai" target="_blank">CircuitLab AI</a>, a research initiative at NIT Meghalaya focused on developing practical and efficient AI systems. Through this initiative, we explore research in machine learning, edge AI, and intelligent systems to build tools and technologies that move ideas from experimentation to real-world applications.
+
 If you're looking for the old version of this website [raselm.me](https://raselm.me), it's still available. You can check it out [here](https://raselmandol.github.io/old).
