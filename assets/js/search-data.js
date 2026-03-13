@@ -120,6 +120,11 @@ ninja.data = [{
           description: "This desktop application leverages the power of ChatGPT",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gpt_desk/";
+            },},{id: "projects-omniseg-unified-image-amp-video-segmentation-toolkit",
+          title: 'OmniSeg – Unified Image &amp;amp; Video Segmentation Toolkit',
+          description: "OmniSeg – A unified toolkit for image and video segmentation with advanced research utilities.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/omniseg/";
             },},{id: "projects-depth-resnet-polyp-image-classification-tool",
           title: 'Depth-ResNet – Polyp Image Classification Tool',
           description: "DepthResNet – Polyp Image Classification Tool using Depth-ResNet (Cross-Platform)",
@@ -155,6 +160,11 @@ ninja.data = [{
           description: "UB GUI is a desktop application to give windows a look of Ubuntu.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ub_gui/";
+            },},{id: "projects-uniseg-unified-segmentation-amp-annotation-framework",
+          title: 'UniSeg – Unified Segmentation &amp;amp; Annotation Framework',
+          description: "UniSeg – A lightweight research framework for image segmentation, dataset annotation, and model experimentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/uniseg/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
