@@ -3,11 +3,13 @@ layout: page
 title: Brainseg-ai – Brain MRI Segmentation and Annotation
 description: Brainseg-ai – A lightweight software tool for automatic brain MRI segmentation and annotation.
 img: assets/img/brainseg151_1.gif
+github: https://github.com/raselmandol/brainseg
 importance: 1
 category: Research
 ---
 
 [![Latest Release](https://img.shields.io/github/v/release/raselmandol/brainseg?label=Release&logo=github)](https://github.com/raselmandol/brainseg/releases/latest)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raselmandol/brainseg)
 [![Issues](https://img.shields.io/github/issues/raselmandol/brainseg?logo=github)](https://github.com/raselmandol/brainseg/issues)
 [![License](https://img.shields.io/github/license/raselmandol/brainseg?color=yellow)](https://github.com/raselmandol/brainseg/blob/main/LICENSE)
 [![CI/CD](https://github.com/raselmandol/brainseg/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/raselmandol/brainseg/actions/workflows/ci-cd.yml)
