@@ -3,7 +3,7 @@ layout: page
 title: Quantum Cryptography
 description: This research explores improving Quantum Cryptography through single particle state rotation.
 img: assets/img/ref-pol.gif
-importance: 1
+importance: 2
 category: Research
 related_publications: false
 ---
