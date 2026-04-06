@@ -3,7 +3,7 @@ layout: page
 title: OmniSeg – Unified Image & Video Segmentation Toolkit
 description: OmniSeg – A unified toolkit for image and video segmentation with advanced research utilities.
 img: assets/img/omniseg_1.png
-importance: 2
+importance: 1
 category: Research
 ---
 
