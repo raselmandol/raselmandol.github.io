@@ -3,6 +3,7 @@ layout: page
 title: sqlmap-gui
 description: GUI for SQLMAP, a powerful tool for automated SQL injection
 img: assets/img/sqlmap_gui.gif
+github: https://github.com/raselmandol/sqlmap-gui
 importance: 1
 category: work
 
@@ -21,6 +22,7 @@ category: work
 
 ---
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raselmandol/sqlmap-gui)
 [![GitHub release](https://img.shields.io/github/v/release/raselmandol/sqlmap-gui)](#) [![GitHub release date](https://img.shields.io/github/release-date/raselmandol/sqlmap-gui)](#) [![GitHub last commit](https://img.shields.io/github/last-commit/raselmandol/sqlmap-gui)](#)
 
 
@@ -53,6 +55,20 @@ category: work
 ## Installation
 
 Follow these steps to set up the project locally:
+
+### Preferred Method (PyPI)
+
+```bash
+pip install sqlmap-gui
+```
+
+After installation, run:
+
+```bash
+python -m sqlmap_gui
+```
+
+### Source Setup (Development)
 
 ### Clone the Repository
 

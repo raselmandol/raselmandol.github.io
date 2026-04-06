@@ -3,6 +3,7 @@ layout: page
 title: GitHub Auditor
 description: A comprehensive GitHub repository analytics dashboard that automatically monitors and visualizes your GitHub repositories.
 img: assets/img/GitHub_Auditor.gif
+github: https://github.com/raselmandol/Auditor
 importance: 3
 category: fun
 ---
@@ -19,6 +20,7 @@ category: fun
 
 A comprehensive GitHub repository analytics dashboard that automatically monitors and visualizes your GitHub repositories with detailed insights, statistics, and interactive charts.
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raselmandol/Auditor)
 ![GitHub Auditor Dashboard](https://img.shields.io/badge/GitHub-Auditor-blue?style=for-the-badge&logo=github)
 ![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-green?style=for-the-badge&logo=githubactions)
 ![Chart.js](https://img.shields.io/badge/Chart.js-Visualizations-orange?style=for-the-badge&logo=chartdotjs)

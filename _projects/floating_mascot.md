@@ -3,6 +3,7 @@ layout: page
 title: Floating Mascot
 description: A floating mascot app made with PyQt6. You can load animated GIFs or images.
 img: assets/img/floating_mascot.gif
+github: https://github.com/raselmandol/floating_mascot
 importance: 2
 category: fun
 ---
@@ -20,6 +21,7 @@ category: fun
 
 ---
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raselmandol/floating_mascot)
 [![GitHub release](https://img.shields.io/github/v/release/raselmandol/floating_mascot)](#) [![GitHub release date](https://img.shields.io/github/release-date/raselmandol/floating_mascot)](#) [![GitHub last commit](https://img.shields.io/github/last-commit/raselmandol/floating_mascot)](#)
 
 
