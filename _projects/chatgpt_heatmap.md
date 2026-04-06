@@ -3,13 +3,13 @@ layout: page
 title: ChatGPT Conversation Heatmap
 description: This project visualizes ChatGPT conversation activity in a GitHub-style heatmap.
 img: assets/img/chatgpt_heatmap.png
+github: https://github.com/raselmandol/chatgpt-heatmap
 importance: 4
 category: work
 
 ---
 
-
-This project visualizes daily ChatGPT activity as a GitHub-style contribution heatmap, showing the number of conversations per day.
+This project visualizes daily ChatGPT activity as a GitHub-style contribution heatmap, showing the number of conversations per day. [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/raselmandol/chatgpt-heatmap)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/chatgpt_heatmap1.png" title="chatgpt-heatmap" class="img-fluid rounded z-depth-1" %}
