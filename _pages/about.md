@@ -6,10 +6,10 @@ subtitle: A final year undergraduate student and an explorer. I love to explore 
 
 profile:
   align: right
-  image: Rasel.png
+  image: Rasel_Wei_Sawdong.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Rasel, somewhere in Shillong, Meghalaya</p>
+    <p>Rasel at Wei-Sawdong Falls, Cherrapunji, Meghalaya, India</p>
     <p>Still exploring unknown things.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
