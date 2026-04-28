@@ -71,6 +71,11 @@ ninja.data = [{
           description: "A quiet evening sky, captured during a walk through the campus.",
           section: "Gallery",handler: () => {
               window.location.href = "/gallery/and_memory/";
+            },},{id: "gallery-wei-sawdong-falls",
+          title: 'Wei-Sawdong Falls',
+          description: "A quiet moment by the waterfalls in Cherrapunji (Sohra), Meghalaya.",
+          section: "Gallery",handler: () => {
+              window.location.href = "/gallery/wei_sawdong/";
             },},{id: "news-the-manuscript-titled-enhanced-qc-using-single-particle-state-rotation-was-accepted-at-dacs-2024",
           title: 'The manuscript (titled: Enhanced QC Using Single-Particle State Rotation) was accepted at DACS...',
           description: "",
