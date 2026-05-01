@@ -32,7 +32,7 @@ linkedin_username: raselmandol # your LinkedIn user name
 rss_icon: true # set to true to show the RSS icon
 scholar_userid: qr4FDowAAAAJ # your Google Scholar ID
 custom_social:
-  logo: https://raselm.me/assets/img/circuitlab-logo.png
+  logo: https://raselr.com/assets/img/circuitlab-logo.png
   title: CircuitLab
   url: https://circuitlab.ai
 # scopus_id: # your profile on Scopus
